@@ -18,7 +18,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:4000/api/user/register";
+      const url = "https://whisp-yq5j.onrender.com/api/user/register";
       const { data: res } = await axios.post(url, data);
       nav('/login')
     } catch (error) {

@@ -61,7 +61,7 @@ Follow the instructions below to set up and run the Chat App locally on your mac
     npm run start
     ```
 
-   The server will be running at [http://localhost:4000](http://localhost:4000).
+   The server will be running at [https://whisp-yq5j.onrender.com](https://whisp-yq5j.onrender.com).
 
 
 ## Sample Environment File 
