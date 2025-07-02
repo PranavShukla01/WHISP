@@ -13,7 +13,7 @@ require("dotenv").config();
 connection();
 
 app.use(cors({
-	origin: "http://localhost:5173",
+	origin: ["http://localhost:5173", "https://whisp-silk.vercel.app"],
 	credentials: true
 }));
 app.use(express.json())
