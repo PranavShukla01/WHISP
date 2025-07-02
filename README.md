@@ -74,23 +74,9 @@ JWTPRIVATEKEY =
 SALT = 
 PORT = 4000
 BASE_URL = "http://localhost:5173"
-HOST=
-SERVICE=
 EMAIL_PORT=587
 SECURE= true
-SMTP_USER=""
-SMTP_PASS=""
 NODE_ENV=development
 ```
-
-## Snapshots
-
-Here are some snapshots of the project:
-
-![Home Screen](https://i.imgur.com/9XRw4t1.png)
-![Register](https://i.imgur.com/TLMvdqS.png)
-![Login](https://i.imgur.com/PctNDG5.png)
-![ChatHome](https://i.imgur.com/8a6Ruhu.png)
-![Profile](https://i.imgur.com/ji1hlOz.png)
 
 
