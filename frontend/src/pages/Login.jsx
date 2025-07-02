@@ -31,7 +31,6 @@ const Login = () => {
       const response = await axios.post(url, data, {
         withCredentials: true, // Set withCredentials to true
       });
-      navigate('/chathome')
       console.log(response.message);
       if (response.status == 200) {
         toast.success(response.message);
